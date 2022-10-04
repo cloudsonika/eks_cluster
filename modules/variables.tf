@@ -31,12 +31,12 @@ variable "subnet2_cidr" {
 
 variable "node_group_instance_type1" {
  type=string
- default="t2.micro"
+ default="t3.small"
 }
 
 variable "node_group_instance_type2" {
  type=string
- default="t2.micro"
+ default="t3.small"
 }
 
 variable "vpc_cidr" {
