@@ -32,7 +32,7 @@ module "eks" {
 
     two = {
       name = var.node_group2_name
-      instance_types = [ var.node_group_instance_type ]
+      instance_types = [ var.node_group_instance_type2 ]
 
       min_size     = 1
       max_size     = 3
