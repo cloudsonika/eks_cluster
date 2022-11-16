@@ -1,0 +1,19 @@
+# Terraform
+
+**/.terraform
+
+*terraform.tfstate*
+
+**/terraform/kubeconfig*
+
+**/*/.terraform.lock.hcl*
+
+**/*/terraform/plans/*
+
+*backend-user.tfvars
+
+*user.tfvars
+
+**/errored.tfstate
+
+**/.terraform.lock.hcl
